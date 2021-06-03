@@ -102,7 +102,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)checkElement:(id)element error:(GTXErrorRefType)errorOrNil;
 
 /**
- @deprecated Use -resultFromCheckingAllElementsFromRootElements: instead.
+ Use -resultFromCheckingAllElementsFromRootElements: instead.
 
  Applies the registered checks on all elements in the accessibility tree under the given root
  elements while respecting excluded elements.
